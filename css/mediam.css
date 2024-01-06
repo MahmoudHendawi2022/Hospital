@@ -1,0 +1,97 @@
+/* start header section */
+header ul {
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background-color: var(--black);
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+
+}
+
+header ul.active { transform:scale(1) ; -webkit-transform:scale(1) ; -moz-transform:scale(1) ; -ms-transform:scale(1) ; -o-transform:scale(1) ;
+}
+
+.fa-times {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+header ul a {
+    width: 100%;
+    padding: 9px;
+    text-align: center;
+    margin: 0;
+    border-bottom: 1px solid;
+}
+#bar {
+    display: block;
+    color: var(--mainColor);
+    cursor: pointer;
+    font-size: 25px;
+    transform: scaleX(1.1);
+    -webkit-transform: scaleX(1.1);
+    -moz-transform: scaleX(1.1);
+    -ms-transform: scaleX(1.1);
+    -o-transform: scaleX(1.1);
+    transition: 0.4s ease;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -ms-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+}
+
+
+
+
+/* end header section */
+
+/* start home */
+.home .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+.home h1 {
+font-size: 30px;
+}
+.home p {
+    font-size: 20px;
+}
+.home .home-info{
+    text-align: center;
+}
+/* end home */
+
+/* start about section */
+.about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.about h1 {
+font-size: 30px;
+}
+.about p {
+    font-size: 20px;
+}
+.about .about-info{
+    text-align: center;
+}
+
+
+/* end about section */
